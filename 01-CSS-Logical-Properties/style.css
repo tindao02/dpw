@@ -1,0 +1,22 @@
+.s1 p{
+    height: 150px;
+    writing-mode: vertical-rl;
+}
+
+.centro {
+    height: 100px;
+    margin: 20px;
+}
+
+.centro-1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(155, 199, 243);
+}
+
+.centro-2 {
+    max-width: min(100%, 600px);
+    margin-inline: auto;
+    background: rgba(150, 255, 150, 0.4);
+}
