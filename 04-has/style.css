@@ -1,0 +1,48 @@
+:root {
+  --outro: nome;
+  --background: rgb(245, 239, 239);
+}
+
+a:has(img) {
+  outline: 2px solid red;
+}
+
+[type="checkbox"]:checked + label {
+  color: red;
+}
+
+.label-teste:has([type="checkbox"]:checked) {
+  color: blue;
+}
+
+.label-teste:not(:has([type="checkbox"]:checked)) {
+  color: rgb(234, 0, 255);
+}
+
+figure:has(figcaption) img {
+  outline: 5px dashed red;
+  margin-bottom: 5px;
+}
+
+
+h1:has(+ p) {
+  color: red;
+}
+
+
+.campo_outro {
+  display: none;
+}
+
+.box:has(option[value="outro"]:checked) .campo_outro {
+  display: block;
+}
+
+body {
+  background: var(--background);
+}
+
+/* MODO ESCURO */
+body:has(#modo-escuro[type="checkbox"]:checked) {
+  --background: rgb(161, 158, 158);
+}
