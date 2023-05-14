@@ -1,0 +1,37 @@
+:root {
+  --my-cool-background: #73a4f4;
+
+  --top-color: #ffa600;
+  --bottom-color: yellow;
+  --my-gradient: linear-gradient(var(--top-color), var(--bottom-color));
+
+  --main-color: blue;
+}
+
+#foo {
+  background-color: var(--my-cool-background);
+}
+
+#titulo {
+  --my-cool-background: #1b9636;
+  color: var(--my-cool-background);
+}
+
+.gradient {
+  background: var(--my-gradient);
+  cursor: pointer;
+}
+
+.gradient-02 {
+  --top-color: rgb(169, 185, 29);
+  background: linear-gradient(var(--top-color), var(--bottom-color));
+  cursor: pointer;
+}
+
+.alert {
+  --main-color: red;
+}
+
+p {
+  color: var(--main-color);
+}
