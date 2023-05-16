@@ -1,0 +1,24 @@
+/* header p:hover,
+main p:hover,
+footer p:hover {
+  color: red;
+  cursor: pointer;
+} */
+
+/* :is(header, main, footer) p:hover {
+  color: blue;
+  cursor: pointer;
+} */
+
+:where(header, main, footer) p:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.whatever :is(p, .card) {
+  color: red;
+}
+
+.whatever p {
+  color: blue; 
+}
