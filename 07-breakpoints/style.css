@@ -1,0 +1,166 @@
+/* SEGUINDO VALORES DA MATERIAL */
+/* https://github.com/angular/flex-layout/wiki/Responsive-API */
+
+/* PIXEL */
+/* xs */
+@media screen and (width < 600px) {
+ 
+}
+
+/* sm */
+@media screen and (width >= 600px) and (width < 960px) {
+  
+}
+
+/* md */
+@media screen and (width >= 960px) and (width < 1280px) {
+  
+}
+
+/* lg */
+@media screen and (width >= 1280px) and (width < 1920px) {
+  
+}
+
+/* xl */
+@media screen and (width >= 1920px) {
+
+}
+
+
+/* REM */
+/* xs */
+@media screen and (width < 37.5rem) {
+  
+}
+
+/* sm */
+@media screen and (width >= 37.5rem) and (width < 60rem) {
+  
+}
+
+/* md */
+@media screen and (width >= 60rem) and (width < 80rem) {
+  
+}
+
+/* lg */
+@media screen and (width >= 80rem) and (width < 120rem) {
+  
+}
+
+/* xl */
+@media screen and (width >= 120rem) {
+  
+}
+/*-----------------------------------------------------------------*/
+
+
+/* PIXEL */
+/* lt-xl */
+@media screen and (width >= 1920px) {
+  
+}
+
+/* lt-lg */
+@media screen and (width < 1920px) {
+  
+}
+
+/* lt-md */
+@media screen and (width < 1280px) {
+  
+}
+
+/* lt-sm */
+@media screen and (width < 960px) {
+  
+}
+
+/* lt-md */
+@media screen and (width < 600px) {
+  
+}
+
+
+/* REM */
+/* lt-xl */
+@media screen and (width >= 120rem) {
+  
+}
+
+/* lt-lg */
+@media screen and (width < 120rem) {
+  
+}
+
+/* lt-md */
+@media screen and (width < 80rem) {
+  
+}  
+
+/* lt-sm */
+@media screen and (width < 60rem) {
+  
+}    
+
+/* lt-xs */
+@media screen and (width < 37.5rem) {
+  
+}    
+/*-----------------------------------------------------------------*/
+
+
+/* PIXEL */
+/* xs */
+@media screen and (width < 600px) {
+  
+ }
+
+/* gt-xs */
+@media screen and (width >= 600px) {
+ 
+}
+
+/* gt-sm */
+@media screen and (width >= 960px) {
+  
+}
+
+/* gt-md */
+@media screen and (width >= 1280px) {
+  
+}
+
+/* gt-lg */
+@media screen and (width >= 1920px) {
+  
+}
+
+
+/* REM */
+/* xs */
+@media screen and (width < 37.5rem) {
+
+}
+
+/* gt-xs */
+@media screen and (width >= 37.5rem) {
+  
+}
+
+/* gt-sm */
+@media screen and (width >= 60rem) {
+  
+}
+
+/* gt-md */
+@media screen and (width >= 80rem) {
+  
+}
+
+/* gt-lg */
+@media screen and (width >= 120rem) {
+  
+}
+/*-----------------------------------------------------------------*/
